@@ -1,0 +1,33 @@
+.container {
+    padding: 40px;
+    margin: 40px;
+    border: 2px solid #212121;
+    background-color: aliceblue;
+    color: #212121;
+    border-radius: 8px;
+   
+}
+
+button {
+    background-color: antiquewhite;
+    border-radius: 4px;
+    
+}
+
+.inc {
+    margin-right: 16px;
+    font-size: medium;
+}
+
+.dec {
+    margin-left: 16px;
+    font-size: medium;
+}
+
+:hover.inc {
+    background-color: aquamarine;
+}
+
+:hover.dec {
+    background-color: aquamarine;
+}
