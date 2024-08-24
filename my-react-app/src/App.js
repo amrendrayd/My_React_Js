@@ -1,6 +1,7 @@
 import './App.css';
 // import Card from './cardComponent/Card';
-import Color from './colorChange/Color';
+// import Color from './colorChange/Color';
+import PasswordGenerator from './passwordGenerator/PasswordGenerator';
 // import Counter from './counter/Counter';
 
 function App() {
@@ -32,8 +33,12 @@ function App() {
         //     />
         // </div>
 
+        // <div>
+        //     <Color/>
+        // </div>
+
         <div>
-            <Color/>
+            <PasswordGenerator/>
         </div>
     );
 }
