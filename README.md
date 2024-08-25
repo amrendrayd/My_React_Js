@@ -4,4 +4,4 @@
 
 # npm create vite@latest to create vite react application
 
-
+ # https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json

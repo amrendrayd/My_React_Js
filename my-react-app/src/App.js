@@ -1,7 +1,8 @@
 import './App.css';
+import MiniApp from './currency/MiniApp';
 // import Card from './cardComponent/Card';
 // import Color from './colorChange/Color';
-import PasswordGenerator from './passwordGenerator/PasswordGenerator';
+// import PasswordGenerator from './passwordGenerator/PasswordGenerator';
 // import Counter from './counter/Counter';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     //     display: "grid",
     //     gridTemplateColumns: "repeat(3, 1fr)",
     // };
+
     return (
         // <div>
         //     <Counter/>
@@ -37,8 +39,13 @@ function App() {
         //     <Color/>
         // </div>
 
+        // <div>
+        //     <PasswordGenerator/>
+        // </div>
+
         <div>
-            <PasswordGenerator/>
+            {/* <h1 className='text-3xl bg-orange-500'>Currency app</h1> */}
+            <MiniApp/>
         </div>
     );
 }
