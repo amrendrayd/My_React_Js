@@ -1,5 +1,5 @@
 import './App.css';
-import MiniApp from './currency/MiniApp';
+// import MiniApp from './currency/MiniApp';
 // import Card from './cardComponent/Card';
 // import Color from './colorChange/Color';
 // import PasswordGenerator from './passwordGenerator/PasswordGenerator';
@@ -43,9 +43,15 @@ function App() {
         //     <PasswordGenerator/>
         // </div>
 
+        // <div>
+        //     {/* <h1 className='text-3xl bg-orange-500'>Currency app</h1> */}
+        //     <MiniApp/>
+        // </div>
+
+        
+
         <div>
-            {/* <h1 className='text-3xl bg-orange-500'>Currency app</h1> */}
-            <MiniApp/>
+ 
         </div>
     );
 }
