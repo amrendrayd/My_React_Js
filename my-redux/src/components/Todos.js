@@ -8,7 +8,7 @@ function Todos() {
     const dispatch = useDispatch()
   return (
     <>
-        <div>Todos</div>
+        <div className='bg-sky-600 text-center rounded-lg mt-1'>Todos</div>
     <ul className="list-none">
         {todos.map((todo) => (
           <li
